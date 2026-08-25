@@ -8,86 +8,45 @@
 
 ## 📊 Project Overview
 
-This project is an India-focused sports footwear e-commerce sales analysis built using Microsoft Excel.
+This project is an improved and refined version of an India-focused sports footwear e-commerce sales analysis created using Microsoft Excel.
 
-The project was developed in two versions. The initial version was created as an early analytical dashboard and was later reviewed, tested and improved based on the limitations identified in the first version.
+The project evolved from an earlier version of the dashboard. After reviewing and testing the initial implementation, the dataset and dashboard were further developed to improve data structure, analytical fields, dashboard functionality, readability and overall presentation.
 
-This repository contains the **improved and tested version** of the project.
-
-The dataset was cleaned, transformed and adapted into an India-focused business scenario to create a structured environment for sales and customer analysis.
-
-The final output is an interactive Excel dashboard designed to provide a consolidated view of:
-
-- Sales performance
-- Revenue trends
-- Product performance
-- Brand performance
-- Geographic performance
-- Customer segments
-- Order status
-
-The dashboard uses PivotTables, PivotCharts, KPI cards and interactive slicers to allow users to explore the data dynamically.
+The final output is an interactive Excel dashboard designed to provide a quick overview of sales performance, customer behavior, product performance, brand performance, geographic performance and order status.
 
 ---
 
 ## 🔄 Project Evolution
 
-This project is an improved and refined version of an earlier Excel dashboard project.
+This repository represents the **improved version** of an earlier project iteration.
 
-The first version was developed as an initial analytical build and helped establish the overall dashboard structure, KPI framework and visualization approach.
+The initial version helped establish the basic dataset structure, KPI framework, PivotTable analysis and dashboard design.
 
-After reviewing and testing the initial version, the project was reworked to improve the dataset, analytical structure, dashboard reliability, readability and overall presentation.
+The current version builds on that work with a more refined dataset and dashboard implementation.
 
-### Version 1 — Initial Dashboard
+### Improvements in this Version
 
-The first version served as the initial implementation of the project.
-
-It helped establish:
-
-- Initial dataset structure
-- Dashboard layout
-- KPI framework
-- PivotTable analysis
-- PivotChart visualizations
-- Interactive slicers
-- Initial business analysis
-
-However, the initial version had limitations in areas such as data completeness, analytical structure and some dashboard implementations.
-
-### Version 2 — Improved & Tested Dashboard
-
-This repository contains the improved version.
-
-The second version focuses on:
-
-- Refined dataset structure
-- Improved analytical fields
-- Better dashboard organization
-- Validated KPI calculations
-- Improved order-status handling
+- Refined India-focused dataset
+- Improved analytical structure
+- Improved KPI calculations and presentation
+- Net Units Sold metric
+- Order Status analysis
 - Improved data readability
-- Tested interactive slicers
 - Refined chart formatting
-- Improved dashboard presentation
+- Interactive slicers
+- Additional dashboard testing and validation
+- Improved overall dashboard presentation
 
-The objective was not simply to recreate the first dashboard, but to use the first version as a learning and testing stage and build a more reliable final version.
+### Earlier Version
 
----
+The earlier version is maintained separately as part of the project development history.
 
-## 📌 Version Comparison
+👉 **[View the Earlier Version](https://github.com/DevanshGupta03/Indian-Footwear-Sales-Analysis)**
 
-| Area | Initial Version | Improved Version |
-|---|---|---|
-| Dataset | Initial dataset | Refined and improved dataset |
-| Data Structure | Initial analytical structure | Improved analytical structure |
-| Dashboard | Initial dashboard build | Refined interactive dashboard |
-| KPI Implementation | Initial KPI setup | Validated dynamic KPIs |
-| Slicers | Initial implementation | Tested interactive filtering |
-| Order Status | Initial implementation | Improved handling and display |
-| Data Readability | Basic formatting | Improved readability |
-| Visualization | Initial chart design | Refined chart presentation |
-| Testing | Initial testing | Extensive dashboard testing |
-| Portfolio Presentation | Initial project | Final improved version |
+The two repositories are intentionally kept separate:
+
+- **Version 1:** Initial dashboard implementation
+- **Version 2:** Improved and refined dashboard
 
 ---
 
@@ -95,20 +54,21 @@ The objective was not simply to recreate the first dashboard, but to use the fir
 
 The dashboard was designed to answer key business questions such as:
 
-- How has revenue changed from 2018 to 2025?
+- How is revenue performing from 2018 to 2025?
 - Which products generate the highest revenue?
-- Which brands contribute the most revenue?
-- Which Indian states generate the highest revenue?
-- How is revenue distributed across different customer types?
-- What are the overall sales performance indicators?
-- How does performance change across different years, brands, categories and sales channels?
+- Which brands perform the best?
+- Which Indian states contribute the most revenue?
+- What is the contribution of different customer types?
+- How does sales performance vary across different sales channels?
+- What are the overall sales and customer performance indicators?
+- How do KPIs and visualizations change when different filters are applied?
 - What is the distribution of order statuses?
 
 ---
 
 ## 📌 Key Performance Indicators
 
-| KPI | Overall Value |
+| KPI | Value |
 |---|---:|
 | Total Revenue | ₹1.73 Cr |
 | Total Orders | 3,163 |
@@ -116,7 +76,7 @@ The dashboard was designed to answer key business questions such as:
 | Average Order Value | ₹5.46K |
 | Average Customer Rating | 4.1 / 5 |
 
-> KPI values are dynamic and change based on the selected dashboard slicers.
+> KPI values update dynamically based on dashboard slicer selections.
 
 ---
 
@@ -124,180 +84,65 @@ The dashboard was designed to answer key business questions such as:
 
 The interactive dashboard includes:
 
-- Revenue Trend from 2018–2025
-- Top 5 Products by Revenue
-- Top 5 States by Revenue
-- Revenue by Brand
-- Revenue by Customer Type
+- Year-wise revenue trend
+- Top 5 products by revenue
+- Top 5 Indian states by revenue
+- Revenue by brand
+- Revenue by customer type
 - Order Status summary
-- Dynamic KPI cards
-- Year slicer
+- Interactive Year slicer
 - Brand slicer
 - Category slicer
 - Sales Channel slicer
-- PivotTables
-- PivotCharts
+- Dynamic KPI cards
+- PivotTables and PivotCharts
 - Custom number formatting
 - Interactive dashboard filtering
+- Dashboard-level data visualization
 
 ---
 
-## 📊 Dashboard Visualizations
+## 🔍 Key Insights
 
-### 1. Revenue Trend | 2018–2025
+### Revenue Performance
 
-A combination chart showing yearly revenue performance along with net units sold.
+Total revenue across the analyzed period is approximately **₹1.73 Cr**.
 
-The chart helps compare the movement of revenue and unit sales across the analyzed period.
+The revenue trend provides an overview of yearly sales performance from 2018 to 2025.
 
-**Why this chart?**
+### Brand Performance
 
-A time-based visualization makes it easier to identify changes in sales performance and understand the overall direction of the business over multiple years.
+The dashboard provides a comparison of revenue generated by the footwear brands included in the dataset.
 
----
+This helps identify the stronger-performing brands within the analyzed data.
 
-### 2. Top 5 Products by Revenue
+### State Performance
 
-A horizontal bar chart showing the five highest-revenue-generating products.
+The dashboard highlights the top revenue-generating Indian states and provides a geographic view of sales performance.
 
-**Why this chart?**
+### Product Performance
 
-A horizontal bar chart makes product names easier to read and provides a clear ranking of the strongest-performing products.
+The Top 5 Products visualization highlights the products contributing the highest revenue within the analyzed dataset.
 
----
+### Customer Contribution
 
-### 3. Revenue by Customer Type
-
-A doughnut chart showing revenue contribution across:
+The dashboard compares revenue contribution across:
 
 - Loyal Customers
 - New Customers
 - Repeat Customers
 
-**Why this chart?**
+This helps understand the role of different customer segments in overall revenue generation.
 
-The doughnut chart provides a quick visual comparison of how different customer segments contribute to overall revenue.
+### Order Status
 
----
-
-### 4. Top 5 States by Revenue
-
-A horizontal bar chart showing the five highest-revenue-generating Indian states.
-
-**Why this chart?**
-
-The horizontal format makes state names easy to read while allowing quick comparison between the top-performing geographic markets.
-
----
-
-### 5. Revenue by Brand
-
-A column chart comparing revenue generated by the footwear brands included in the dataset.
-
-**Why this chart?**
-
-A column chart provides a straightforward comparison of brand-level revenue performance and makes differences between brands easy to identify.
-
----
-
-### 6. Order Status
-
-The dashboard includes an order-status summary covering:
+The Order Status section provides a view of:
 
 - Delivered
 - Cancelled
 - Returned
 
-**Why this section?**
-
-Order status provides additional operational context beyond revenue and sales performance, helping understand how orders are distributed across different outcomes.
-
----
-
-## 🎛️ Interactive Dashboard Controls
-
-The dashboard includes four interactive slicers:
-
-### Year
-
-Allows users to analyze performance for specific years from 2018 to 2025.
-
-### Brand
-
-Allows users to filter the dashboard based on individual footwear brands.
-
-### Category
-
-Allows users to analyze different product categories.
-
-### Sales Channel
-
-Allows users to compare performance across different sales channels.
-
-These slicers dynamically update the connected KPI cards and PivotCharts.
-
----
-
-## 🔍 Key Business Insights
-
-The dashboard can be used to identify:
-
-- Long-term revenue trends
-- Changes in yearly sales performance
-- High-performing products
-- Strong-performing footwear brands
-- High-revenue geographic markets
-- Customer segment contribution
-- Order outcome distribution
-- Differences in performance across sales channels
-- Changes in KPIs based on selected filters
-
-> Since the dashboard is interactive, the insights can change depending on the selected slicer combinations.
-
----
-
-## 🧹 Data Preparation
-
-The dataset was prepared before building the dashboard.
-
-Major preparation activities included:
-
-- Reviewing and cleaning the source data
-- Structuring sales-related information
-- Adapting the dataset to an India-focused business scenario
-- Organizing product, brand and category information
-- Preparing customer-related fields
-- Adding Indian geographic dimensions
-- Structuring order-status information
-- Preparing the data for PivotTable analysis
-- Creating dashboard-ready analytical fields
-- Validating the dataset before visualization
-
-The final dataset contains **3,163 records and 27 columns** covering the period from **2018 to 2025**.
-
----
-
-## 🗂️ Dataset Overview
-
-The dataset contains sales, customer, product and order-related information used to build the dashboard.
-
-Major analytical dimensions include:
-
-- Order information
-- Customer information
-- Product information
-- Brand
-- Category
-- Order date
-- Geographic information
-- Sales channel
-- Customer type
-- Order status
-- Revenue
-- Units sold
-- Customer rating
-
-This structure allows the dataset to be analyzed from multiple business perspectives.
+This adds an operational perspective alongside the financial and sales analysis.
 
 ---
 
@@ -318,19 +163,62 @@ This structure allows the dataset to be analyzed from multiple business perspect
 - Slicers
 - KPI Cards
 - Custom Number Formatting
-- Data Visualization
 - Dashboard Design
+- Data Visualization
 - Business Analysis
+- Interactive Reporting
 
 ---
 
-## 📂 Project Files
+## 🧹 Data Preparation
 
-| File | Description |
-|---|---|
-| `Indian_Footwear_Sales_Dashboard.xlsx` | Final Excel workbook containing the interactive dashboard and analysis |
-| `Indian_Footwear_Sales_Data.csv` | Dataset used for the dashboard analysis |
-| `Dashboard_Screenshot.png` | Preview image of the completed dashboard |
+The dataset was cleaned, reviewed and transformed before building the dashboard.
+
+Major preparation steps included:
+
+- Reviewing and cleaning the source data
+- Adapting the dataset to an India-focused business scenario
+- Structuring sales and customer information
+- Organizing product, brand and category information
+- Adding Indian states and geographic dimensions
+- Preparing customer-related fields
+- Structuring order-status information
+- Preparing the data for PivotTable analysis
+- Creating dashboard-ready analytical fields
+- Creating revenue and sales-related measures
+- Testing the dashboard using different slicer selections
+
+The final dataset contains **3,163 records and 27 columns** covering the period from **2018 to 2025**.
+
+---
+
+## 📊 Dashboard Structure
+
+The dashboard contains six major analytical sections:
+
+1. **Revenue Trend | 2018–2025**
+2. **Top 5 Products by Revenue**
+3. **Revenue by Customer Type**
+4. **Top 5 States by Revenue**
+5. **Revenue by Brand**
+6. **Order Status**
+
+The dashboard also includes five KPI cards and four interactive slicers.
+
+---
+
+## 🎛️ Interactive Filters
+
+The dashboard includes four interactive slicers:
+
+- **Year**
+- **Brand**
+- **Category**
+- **Sales Channel**
+
+These slicers allow users to filter the dashboard and dynamically analyze different business segments.
+
+The connected KPI cards and PivotCharts update according to the selected filters.
 
 ---
 
@@ -338,11 +226,11 @@ This structure allows the dataset to be analyzed from multiple business perspect
 
 The project started with a publicly available sports footwear sales dataset.
 
-The source data was subsequently cleaned, transformed and adapted into an India-focused analytical dataset for this project.
+The source dataset was subsequently cleaned, transformed and adapted into an India-focused analytical dataset for this project.
 
-The dataset and dashboard in this repository represent an adapted analytical scenario created for learning, portfolio development and data analytics practice.
+The current version further refines the dataset and dashboard implementation based on learnings and testing from the earlier version.
 
-> This project should not be treated as official Indian sports footwear market data or as a representation of actual company performance.
+> This project is intended for educational, portfolio and data analytics practice purposes. The India-focused dataset represents an adapted analytical scenario and should not be treated as official Indian footwear market data.
 
 ---
 
@@ -351,51 +239,43 @@ The dataset and dashboard in this repository represent an adapted analytical sce
 This project demonstrates practical skills in:
 
 - Excel-based data analysis
+- Business-oriented data visualization
 - Interactive dashboard development
 - KPI design
 - PivotTable and PivotChart analysis
 - Slicer-based interactive reporting
 - Data cleaning and transformation
-- Business-oriented data visualization
 - Sales performance analysis
 - Product and brand analysis
-- Customer analysis
+- Customer segment analysis
 - Geographic sales analysis
 - Order-status analysis
 - Dashboard testing and validation
-- Presenting analytical results professionally
+- Presenting analytical results in a professional format
 
 ---
 
-## 🚀 Project Outcome
+## 🚀 Future Improvements
 
-The final dashboard provides an interactive overview of Indian sports footwear e-commerce performance.
+Possible future improvements include:
 
-Instead of analyzing individual tables or raw data, users can use the dashboard to quickly explore:
-
-**Revenue → Products → Brands → States → Customers → Order Status**
-
-while dynamically filtering the analysis using the available slicers.
-
-The project also demonstrates an iterative analytics workflow:
-
-**Initial Build → Testing → Identify Limitations → Improve Dataset → Refine Dashboard → Validate → Final Version**
-
-This approach reflects how an analytical project can evolve through testing and refinement rather than being treated as a one-time dashboard build.
+- Adding advanced Excel formulas and measures
+- Adding profit and margin analysis
+- Adding monthly/quarterly sales analysis
+- Adding customer retention analysis
+- Rebuilding the dashboard in Power BI
+- Adding SQL-based analysis
+- Creating automated reporting
 
 ---
 
-## 🔮 Future Improvements
+## 📂 Project Files
 
-Potential future improvements include:
-
-- Monthly and quarterly sales analysis
-- Profit and margin analysis
-- Customer retention analysis
-- Advanced Excel-based measures
-- Power BI implementation
-- SQL-based analysis
-- Automated reporting
+| File | Description |
+|---|---|
+| `Indian_Footwear_Sales_Dashboard.xlsx` | Final Excel workbook containing the interactive dashboard |
+| `Indian_Footwear_Sales_Data.csv` | Dashboard-ready sales dataset |
+| `Dashboard_Screenshot.png` | Preview image of the final dashboard |
 
 ---
 
@@ -404,22 +284,6 @@ Potential future improvements include:
 **Devansh Gupta**
 
 Data Analytics Portfolio Project
-
----
-
-## 🔗 Project Versions
-
-### Initial Version
-
-**Repository:** `DevanshGupta03/Indian-Footwear-Sales-Dashboard`
-
-The initial version of the project, developed as the first stage of the dashboard and analytics workflow.
-
-### Improved Version
-
-**Repository:** `DevanshGupta03/Indian-Footwear-Sales-Dashboard`
-
-This repository contains the improved, refined and tested version of the project.
 
 ---
 
