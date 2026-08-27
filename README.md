@@ -2,7 +2,7 @@
 
 ### Interactive Excel Dashboard | Data Analytics Portfolio Project
 
-![Dashboard Preview](Dashboard_Screenshot.png)
+![Dashboard Preview](DashBoard_Screenshot.png)
 
 ---
 
@@ -10,7 +10,18 @@
 
 This project is an improved and refined version of an India-focused sports footwear e-commerce sales analysis created using Microsoft Excel.
 
-The project evolved from an earlier version of the dashboard. After reviewing and testing the initial implementation, the dataset and dashboard were further developed to improve data structure, analytical fields, dashboard functionality, readability and overall presentation.
+The project evolved from an earlier dashboard implementation. The initial version established the core dataset, KPI structure, PivotTable analysis and dashboard framework.
+
+Based on further analysis, testing and refinement, the current version focuses on improving:
+
+- Data readability
+- KPI presentation
+- Dashboard interactivity
+- Order Status analysis
+- Chart readability
+- Number formatting
+- Visual consistency
+- Dashboard presentation
 
 The final output is an interactive Excel dashboard designed to provide a quick overview of sales performance, customer behavior, product performance, brand performance, geographic performance and order status.
 
@@ -18,30 +29,51 @@ The final output is an interactive Excel dashboard designed to provide a quick o
 
 ## 🔄 Project Evolution
 
-This repository represents the **improved version** of an earlier project iteration.
+This repository represents the **improved and refined version** of an earlier project iteration.
 
-The initial version helped establish the basic dataset structure, KPI framework, PivotTable analysis and dashboard design.
+### Version 1
 
-The current version builds on that work with a more refined dataset and dashboard implementation.
+The earlier version was created to establish the initial:
 
-### Improvements in this Version
+- Sales dataset structure
+- KPI framework
+- PivotTable analysis
+- PivotChart visualizations
+- Dashboard layout
+- Interactive slicers
 
-- Refined India-focused dataset
+### Version 2 — Current Project
+
+The current version builds on the earlier implementation with improved analysis, readability, interactivity and presentation.
+
+### Key Improvements
+
+- Refined India-focused sales dataset
 - Improved analytical structure
 - Improved KPI calculations and presentation
-- Net Units Sold metric
-- Order Status analysis
-- Improved data readability
-- Refined chart formatting
-- Interactive slicers
-- Additional dashboard testing and validation
-- Improved overall dashboard presentation
+- Added **Net Units Sold** KPI
+- Added **Order Status** analysis
+- Improved handling of Order Status values
+- Added dynamic Order Status references for the dashboard
+- Replaced missing Order Status results with `0` instead of `#REF!`
+- Improved revenue number formatting
+- Converted large revenue values into readable formats such as `₹1.73 Cr`
+- Converted AOV into a compact format such as `₹5.46K`
+- Improved chart axis readability
+- Improved chart data-label readability
+- Simplified the Revenue Trend combo chart
+- Added meaningful color differentiation where required
+- Added KPI and Order Status icons
+- Added a Key Insights section to the dashboard
+- Performed slicer-based testing and validation
+- Refined the overall dashboard presentation
 
 ### Earlier Version
 
-The earlier version is maintained separately as part of the project development history.
+The earlier version is maintained separately as part of the project's development history.
 
-👉 **[View the Earlier Version](https://github.com/DevanshGupta03/Indian-Footwear-Sales-Analysis)**
+👉 **View the Earlier Version:**  
+https://github.com/DevanshGupta03/Indian-Footwear-Sales-Analysis
 
 The two repositories are intentionally kept separate:
 
@@ -59,10 +91,11 @@ The dashboard was designed to answer key business questions such as:
 - Which brands perform the best?
 - Which Indian states contribute the most revenue?
 - What is the contribution of different customer types?
-- How does sales performance vary across different sales channels?
+- How does sales performance change across different sales channels?
 - What are the overall sales and customer performance indicators?
 - How do KPIs and visualizations change when different filters are applied?
 - What is the distribution of order statuses?
+- Which areas of the business are performing strongly?
 
 ---
 
@@ -84,89 +117,142 @@ The dashboard was designed to answer key business questions such as:
 
 The interactive dashboard includes:
 
-- Year-wise revenue trend
-- Top 5 products by revenue
-- Top 5 Indian states by revenue
-- Revenue by brand
-- Revenue by customer type
+- Revenue Trend from 2018–2025
+- Top 5 Products by Revenue
+- Top 5 Indian States by Revenue
+- Revenue by Brand
+- Revenue by Customer Type
 - Order Status summary
+- Dynamic KPI cards
 - Interactive Year slicer
 - Brand slicer
 - Category slicer
 - Sales Channel slicer
-- Dynamic KPI cards
-- PivotTables and PivotCharts
+- PivotTables
+- PivotCharts
 - Custom number formatting
-- Interactive dashboard filtering
 - Dashboard-level data visualization
+- Key Insights section
+- Interactive dashboard filtering
 
 ---
 
-## 🔍 Key Insights
+## 📊 Dashboard Structure
 
-### Revenue Performance
+The dashboard contains six major analytical sections:
 
-Total revenue across the analyzed period is approximately **₹1.73 Cr**.
+### 1. Revenue Trend | 2018–2025
 
-The revenue trend provides an overview of yearly sales performance from 2018 to 2025.
+A combination chart showing yearly revenue performance along with Net Units Sold.
 
-### Brand Performance
+The combo chart allows two different business metrics to be viewed together while using separate scales for better interpretation.
 
-The dashboard provides a comparison of revenue generated by the footwear brands included in the dataset.
+### 2. Top 5 Products by Revenue
 
-This helps identify the stronger-performing brands within the analyzed data.
+A horizontal bar chart highlighting the five highest-revenue products.
 
-### State Performance
+The horizontal format makes longer product names easier to read.
 
-The dashboard highlights the top revenue-generating Indian states and provides a geographic view of sales performance.
+### 3. Revenue by Customer Type
 
-### Product Performance
-
-The Top 5 Products visualization highlights the products contributing the highest revenue within the analyzed dataset.
-
-### Customer Contribution
-
-The dashboard compares revenue contribution across:
+A doughnut chart showing revenue contribution from:
 
 - Loyal Customers
 - New Customers
 - Repeat Customers
 
-This helps understand the role of different customer segments in overall revenue generation.
+This provides a quick view of customer-segment contribution.
 
-### Order Status
+### 4. Top 5 States by Revenue
 
-The Order Status section provides a view of:
+A horizontal bar chart showing the top five Indian states by revenue.
+
+This provides a geographic perspective of sales performance.
+
+### 5. Revenue by Brand
+
+A column chart comparing revenue generated by the major footwear brands included in the dataset.
+
+### 6. Order Status
+
+The Order Status section provides an operational view of:
 
 - Delivered
 - Cancelled
 - Returned
 
-This adds an operational perspective alongside the financial and sales analysis.
+The dashboard uses separate visual indicators for each status to improve readability.
 
 ---
 
-## 🛠️ Tools & Techniques
+## 🎛️ Interactive Filters
 
-### Tools
+The dashboard includes four interactive slicers:
 
-- Microsoft Excel
-- Git
-- GitHub
+- **Year**
+- **Brand**
+- **Category**
+- **Sales Channel**
 
-### Excel Techniques
+These slicers allow users to filter the dashboard and dynamically analyze different business segments.
 
-- Data Cleaning
-- Data Transformation
-- PivotTables
-- PivotCharts
-- Slicers
-- KPI Cards
-- Custom Number Formatting
-- Dashboard Design
-- Data Visualization
-- Business Analysis
-- Interactive Reporting
+The connected KPI cards, PivotCharts and Order Status information update according to the selected filters.
+
+The dashboard was tested using different slicer combinations to validate the interactive behavior.
+
+---
+
+## 🔍 Key Insights
+
+### Overall Revenue
+
+Total revenue across the analyzed period is approximately **₹1.73 Cr**.
+
+The Revenue Trend provides an overview of yearly sales performance from 2018 to 2025.
+
+### Brand Performance
+
+**Adidas** is the highest-revenue brand in the overall dashboard view, generating approximately **₹32.09L**.
+
+### State Performance
+
+**West Bengal** is the leading state among the top five states shown, generating approximately **₹8.08L**.
+
+### Product Performance
+
+**New Balance Minimus TR** is the highest-revenue product among the products shown in the Top 5 Products analysis, generating approximately **₹6.61L**.
+
+### Customer Contribution
+
+**Repeat Customers** represent the largest customer segment by revenue contribution at approximately **43%** in the overall dashboard view.
+
+### Order Status
+
+The dashboard provides a clear view of delivered, cancelled and returned orders, adding an operational perspective to the sales analysis.
+
+---
+
+## 🎨 Dashboard Design & Readability
+
+The dashboard was designed with a focus on **clarity, consistency and quick interpretation**.
+
+Key design decisions included:
+
+- Blue-based primary visual theme
+- Teal accent for secondary trend information
+- Green for Delivered orders
+- Red for Cancelled orders
+- Yellow/amber for Returned orders
+- White KPI cards for visual separation
+- Compact revenue formatting such as `₹1.73 Cr`
+- Compact AOV formatting such as `₹5.46K`
+- Simplified chart labels
+- Improved chart axis readability
+- Consistent chart titles
+- Visual icons for KPIs and Order Status
+- Key Insights section at the bottom of the dashboard
+
+The objective was to make the dashboard easy to understand without overcrowding it with unnecessary visual elements.
 
 ---
 
@@ -186,39 +272,37 @@ Major preparation steps included:
 - Preparing the data for PivotTable analysis
 - Creating dashboard-ready analytical fields
 - Creating revenue and sales-related measures
-- Testing the dashboard using different slicer selections
+- Reviewing KPI calculations
+- Testing Order Status calculations
+- Testing dashboard behavior using different slicer selections
 
 The final dataset contains **3,163 records and 27 columns** covering the period from **2018 to 2025**.
 
 ---
 
-## 📊 Dashboard Structure
+## 🛠️ Tools & Techniques
 
-The dashboard contains six major analytical sections:
+### Tools
 
-1. **Revenue Trend | 2018–2025**
-2. **Top 5 Products by Revenue**
-3. **Revenue by Customer Type**
-4. **Top 5 States by Revenue**
-5. **Revenue by Brand**
-6. **Order Status**
+- Microsoft Excel
+- Git
+- GitHub
 
-The dashboard also includes five KPI cards and four interactive slicers.
+### Excel Techniques
 
----
-
-## 🎛️ Interactive Filters
-
-The dashboard includes four interactive slicers:
-
-- **Year**
-- **Brand**
-- **Category**
-- **Sales Channel**
-
-These slicers allow users to filter the dashboard and dynamically analyze different business segments.
-
-The connected KPI cards and PivotCharts update according to the selected filters.
+- Data Cleaning
+- Data Transformation
+- PivotTables
+- PivotCharts
+- Slicers
+- KPI Cards
+- Excel Formulas
+- Custom Number Formatting
+- Dashboard Design
+- Data Visualization
+- Business Analysis
+- Interactive Reporting
+- Dashboard Testing & Validation
 
 ---
 
@@ -250,6 +334,8 @@ This project demonstrates practical skills in:
 - Customer segment analysis
 - Geographic sales analysis
 - Order-status analysis
+- Custom number formatting
+- Dashboard readability improvement
 - Dashboard testing and validation
 - Presenting analytical results in a professional format
 
@@ -259,10 +345,10 @@ This project demonstrates practical skills in:
 
 Possible future improvements include:
 
-- Adding advanced Excel formulas and measures
 - Adding profit and margin analysis
-- Adding monthly/quarterly sales analysis
+- Adding monthly and quarterly sales analysis
 - Adding customer retention analysis
+- Adding advanced Excel formulas and measures
 - Rebuilding the dashboard in Power BI
 - Adding SQL-based analysis
 - Creating automated reporting
