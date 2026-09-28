@@ -369,7 +369,7 @@ Possible future improvements include:
 
 **Devansh Gupta**
 
-Data Analytics Portfolio Project
+Data Analytics Project
 
 ---
 
