@@ -277,6 +277,8 @@ Focused on Excel, SQL, Python, Power BI and Data Visualization.
 
 🔗 **Kaggle:** [devanshgupta0308](https://www.kaggle.com/devanshgupta0308)
 
+🔗 **Linkedin:** [DevanshGupta](https://www.linkedin.com/in/devansh-gupta-90aa14233)
+
 ---
 
 ⭐ If you find this project useful, feel free to explore the dashboard, dataset and Kaggle analysis.
